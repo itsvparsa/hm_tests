@@ -20,8 +20,8 @@ Scenario Outline: Creating first entry and deleting it after creation
   Then row gets deleted
 
 Examples:
-| hotel_name  | adress | owner         | phone_number | email             |
-| Ramada      | London | Ramada Owner  | 0788787985   | ramada@gmail.com   |
+| hotel_name | adress | owner        | phone_number | email            |
+| Ramada     | London | Ramada Owner | 0788787985   | ramada@gmail.com |
 
 Scenario Outline: Creating multiple entries
   Given I am navigated to hotel management platform page
@@ -39,10 +39,5 @@ Scenario Outline: Creating multiple entries
 
 Examples:
 | hotel_name  | adress | owner         | phone_number | email             |
-| Ramada      | London | Ramada Owner  | 0788787985   | ramada@gmail.com   |
+| Ramada      | London | Ramada Owner  | 0788787985   | ramada@gmail.com  |
 | Holiday Inn | Oxford | Holiday Owner | 54794646113  | holiday@gmail.com |
-
-
-
-
-
